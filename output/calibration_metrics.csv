@@ -1,0 +1,6 @@
+model,brier_score,ece,pr_auc
+LR_default,0.1218,0.0354,0.3862
+LR_balanced,0.2034,0.2597,0.3831
+DT_depth5,0.1175,0.0358,0.3738
+RF_default,0.1154,0.0178,0.4286
+RF_balanced,0.1138,0.0275,0.4402

@@ -1,0 +1,32 @@
+{
+  "n_rows": 4500,
+  "n_columns": 14,
+  "columns": [
+    "customer_id",
+    "gender",
+    "senior_citizen",
+    "tenure",
+    "monthly_charges",
+    "total_charges",
+    "contract_type",
+    "internet_service",
+    "num_support_calls",
+    "payment_method",
+    "has_partner",
+    "has_dependents",
+    "churned",
+    "contract_months"
+  ],
+  "missing_values": {},
+  "duplicate_rows": 0,
+  "target_distribution": {
+    "0": 3764,
+    "1": 736
+  },
+  "suspicious_patterns": [
+    {
+      "pattern": "tenure_gt_3_and_total_charges_zero",
+      "count": 278
+    }
+  ]
+}

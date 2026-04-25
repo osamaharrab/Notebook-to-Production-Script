@@ -1,0 +1,9 @@
+{
+  "selection_metric": "pr_auc_mean",
+  "threshold_selection_strategy": "best_f1",
+  "recall_target": 0.8,
+  "max_alert_rate": null,
+  "calibration_bins": 10,
+  "error_analysis_top_n": 10,
+  "run_snapshot": true
+}

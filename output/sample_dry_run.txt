@@ -1,0 +1,19 @@
+2026-04-25 23:17:28 [INFO] __main__: Pipeline configuration:
+2026-04-25 23:17:28 [INFO] __main__:   data-path   : data/telecom_churn.csv
+2026-04-25 23:17:28 [INFO] __main__:   output-dir  : ./output
+2026-04-25 23:17:28 [INFO] __main__:   n-folds     : 5
+2026-04-25 23:17:28 [INFO] __main__:   random-seed : 42
+2026-04-25 23:17:28 [INFO] __main__:   dry-run     : True
+2026-04-25 23:17:28 [INFO] __main__:   log-level   : INFO
+2026-04-25 23:17:28 [INFO] __main__:   config-path : config.json
+2026-04-25 23:17:28 [INFO] __main__: Loaded data from /home/osama/ai/Notebook-to-Production-Script/data/telecom_churn.csv (4500 rows, 14 columns)
+2026-04-25 23:17:28 [INFO] __main__: Validation passed — shape: (4500, 14), target distribution: {0: 3764, 1: 736}
+2026-04-25 23:17:28 [INFO] __main__: No missing values detected
+2026-04-25 23:17:28 [INFO] __main__: — DRY RUN — No models will be trained
+2026-04-25 23:17:28 [INFO] __main__: Models that would be compared: ['Dummy', 'LR_default', 'LR_balanced', 'DT_depth5', 'RF_default', 'RF_balanced']
+2026-04-25 23:17:28 [INFO] __main__: Selection metric: pr_auc_mean
+2026-04-25 23:17:28 [INFO] __main__: Threshold strategy: best_f1
+2026-04-25 23:17:28 [INFO] __main__: Scoring metrics: ['accuracy', 'precision', 'recall', 'f1', 'roc_auc', 'pr_auc']
+2026-04-25 23:17:28 [INFO] __main__: CV strategy: StratifiedKFold (5 folds, seed=42)
+2026-04-25 23:17:28 [INFO] __main__: Output directory: /home/osama/ai/Notebook-to-Production-Script/output
+2026-04-25 23:17:28 [INFO] __main__: Dry run complete — configuration is valid

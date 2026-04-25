@@ -1,0 +1,36 @@
+{
+  "threshold": 0.25,
+  "accuracy": 0.7656,
+  "precision": 0.3609,
+  "recall": 0.5646,
+  "f1": 0.4403,
+  "pr_auc": 0.4286,
+  "brier_score": 0.1154,
+  "predicted_positives": 230,
+  "total_rows": 900,
+  "alert_rate": 0.2556,
+  "confusion_matrix": {
+    "tn": 606,
+    "fp": 147,
+    "fn": 64,
+    "tp": 83
+  },
+  "default_050_metrics": {
+    "threshold": 0.5,
+    "accuracy": 0.8456,
+    "precision": 0.5833,
+    "recall": 0.1905,
+    "f1": 0.2872,
+    "pr_auc": 0.4286,
+    "brier_score": 0.1154,
+    "predicted_positives": 48,
+    "total_rows": 900,
+    "alert_rate": 0.0533,
+    "confusion_matrix": {
+      "tn": 733,
+      "fp": 20,
+      "fn": 119,
+      "tp": 28
+    }
+  }
+}
